@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Python 3.12\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-02 00:03+0000\n"
-"PO-Revision-Date: 2024-08-16 15:01+0800\n"
+"PO-Revision-Date: 2024-08-17 15:31+0800\n"
 "Last-Translator: Adrian Liaw <adrianliaw2000@gmail.com>\n"
 "Language-Team: Chinese - TAIWAN (https://github.com/python/python-docs-zh-"
 "tw)\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: ../../library/itertools.rst:2
 msgid ""
 ":mod:`!itertools` --- Functions creating iterators for efficient looping"
-msgstr ":mod:`!itertools` --- 建立產生高效率迴圈之疊代器的函式"
+msgstr ":mod:`!itertools` --- 建立產生高效率迴圈之疊代器的函式tttttt"
 
 #: ../../library/itertools.rst:20
 msgid ""
@@ -965,8 +965,8 @@ msgid ""
 "`zip_longest` function should be wrapped with something that limits the "
 "number of calls (for example :func:`islice` or :func:`takewhile`)."
 msgstr ""
-"如果其中一個 iterables 可能是無限的，那麼應該用別的可以限制呼叫次數的方法來"
-"包裝 :func:`zip_longest` 函式（例如 :func:`islice` 或 :func:`takewhile`）。"
+"如果其中一個 iterables 可能是無限的，那麼應該用別的可以限制呼叫次數的方法來包"
+"裝 :func:`zip_longest` 函式（例如 :func:`islice` 或 :func:`takewhile`）。"
 
 #: ../../library/itertools.rst:750
 msgid "Itertools Recipes"
