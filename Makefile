@@ -43,7 +43,7 @@ SPHINX_CONF := $(CPYTHON_CLONE)/Doc/conf.py
 LANGUAGE := zh_TW
 LC_MESSAGES := $(CPYTHON_CLONE)/Doc/locales/$(LANGUAGE)/LC_MESSAGES
 VENV := ~/.venvs/python-docs-i18n/
-MODE := autobuild-dev-html
+MODE := html
 JOBS := 4
 
 .PHONY: all
