@@ -275,7 +275,7 @@ msgstr ""
 #: ../../library/time.rst:953 ../../library/time.rst:962
 #: ../../library/time.rst:975
 msgid "Availability"
-msgstr "適用性"
+msgstr ":ref:`適用 <availability>`"
 
 #: ../../library/time.rst:151
 msgid ""
