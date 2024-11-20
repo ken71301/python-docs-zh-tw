@@ -645,7 +645,7 @@ msgid ""
 "Raises an :ref:`auditing event <auditing>` ``time.sleep`` with argument "
 "``secs``."
 msgstr ""
-"引發一個帶有引數 ``secs`` 的\\ :ref:`審計事件 (auditing event) <auditing>` "
+"引發一個帶有引數 ``secs`` 的\\ :ref:`稽核事件 (auditing event) <auditing>` "
 "``time.sleep``。"
 
 #: ../../library/time.rst:404
@@ -667,7 +667,7 @@ msgstr ""
 
 #: ../../library/time.rst:413
 msgid "Raises an auditing event."
-msgstr "引發一個審計事件。"
+msgstr "引發一個稽核事件。"
 
 #: ../../library/time.rst:421
 msgid ""
@@ -1302,7 +1302,7 @@ msgid ""
 "of two calls in the same thread is valid."
 msgstr ""
 "回傳當前執行緒的系統和用戶 CPU 時間之和（以帶有小數的秒數表示）。它不包括睡眠"
-"期間經過的時間。根據定義，這是執行緒相關 (thread-specific) 的。回傳值的參照點"
+"期間經過的時間。根據定義，這是執行緒特定 (thread-specific) 的。回傳值的參照點"
 "未定義，因此只有同一執行緒中兩次呼叫結果之間的差異才是有效的。"
 
 #: ../../library/time.rst:731
@@ -1314,7 +1314,7 @@ msgstr ""
 
 #: ../../library/time.rst:736
 msgid "Unix systems supporting ``CLOCK_THREAD_CPUTIME_ID``."
-msgstr "Unix 系統支援 ``CLOCK_THREAD_CPUTIME_ID`` 。"
+msgstr "有支援 ``CLOCK_THREAD_CPUTIME_ID`` 的 Unix 系統。"
 
 #: ../../library/time.rst:743
 msgid "Similar to :func:`thread_time` but return time as nanoseconds."
@@ -1373,7 +1373,7 @@ msgstr "``std`` 和 ``dst``"
 msgid ""
 "Three or more alphanumerics giving the timezone abbreviations. These will be "
 "propagated into time.tzname"
-msgstr "三個或更多字母數字組成的時區縮寫。這些縮寫會被傳播到 time.tzname 中。"
+msgstr "三個或更多字母與數字 (alphanumerics) 組成的時區縮寫。這些縮寫會被傳播到 time.tzname 中。"
 
 #: ../../library/time.rst:779
 msgid "``offset``"
@@ -1436,7 +1436,7 @@ msgid ""
 "first week in which the *d*'th day occurs. Day zero is a Sunday."
 msgstr ""
 "一年中第 *m* 月的第 *n* 週的第 *d* 天（0 <= *d* <= 6，1 <= *n* <= 5，1 <= "
-"*m* <= 12，其中第 5 週表示“該月的最後一個 *d* 天”，這可能出現在第四或第五"
+"*m* <= 12，其中 *n* 為 5 表示「該月的最後一個第 *d* 天」，這可能出現在第四或第五"
 "週）。第 1 週是 *d* 天首次出現的那一週。第零天為星期天。"
 
 #: ../../library/time.rst:804
@@ -1478,11 +1478,11 @@ msgid ""
 "``'Australia/Melbourne'``, ``'Egypt'`` or  ``'Europe/Amsterdam'``. ::"
 msgstr ""
 "在許多 Unix 系統（包括 \\*BSD、Linux、Solaris 和 Darwin）上，使用系統的 "
-"zoneinfo (\\ :manpage:`tzfile(5)`\\ ) 資料庫來指定時區規則會更加方便。要這樣"
+"zoneinfo (:manpage:`tzfile(5)`) 資料庫來指定時區規則會更加方便。要這樣"
 "做，請將 :envvar:`TZ` 環境變數設定為所需時區資料檔案的路徑，相對於系統 "
 "'zoneinfo' 時區資料庫的根目錄，通常位於 :file:`/usr/share/zoneinfo`。例如，"
 "``'US/Eastern'``、``'Australia/Melbourne'``、``'Egypt'`` 或 ``'Europe/"
-"Amsterdam'``。： ::"
+"Amsterdam'``。 ::"
 
 #: ../../library/time.rst:826
 msgid ""
@@ -1528,7 +1528,7 @@ msgid ""
 "have  discontinuities if the time is changed using ``settimeofday()`` or "
 "similar."
 msgstr ""
-"這允許應用程序獲取一個能夠感知暫停的單調時鐘，而無需處理 :data:"
+"這允許應用程式獲取一個能夠感知暫停的單調時鐘，而無需處理 :data:"
 "`CLOCK_REALTIME` 的複雜情況，後者在使用 ``settimeofday()`` 或類似函式更改時間"
 "時可能會出現不連續的情況。"
 
@@ -1592,7 +1592,7 @@ msgid ""
 "suspended, providing accurate uptime measurement, both absolute and interval."
 msgstr ""
 "表示系統運作且無暫停的絕對時間，提供包括絕對時間 (absolute) 和時間區間 "
-"(interval) 的精確的正常運行時間 (uptime) 測量。"
+"(interval) 的精確的正常上線時間 (uptime) 測量。"
 
 #: ../../library/time.rst:949
 msgid ""
